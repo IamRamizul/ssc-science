@@ -5,13 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Science Imp. Topics</title>
 <link rel="stylesheet" type="text/css" href="./styles.css">
+    <style>
+        /* General reset and base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f0f0f0;
+}
+
+/* Note section */
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    table tr {
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        padding: 10px;
+        background-color: #fff;
+    }
+
+    table td {
+        text-align: left;
+        border: none;
+        padding: 5px 0;
+    }
+
+    table th {
+        display: none; /* Hide headers on small screens */
+    }
+
+    table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 3px;
+        color: #555;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    table td {
+        font-size: 0.9em;
+    }
+}
+
+    </style>
 </head>
 <body>
     <h1>Science Important Topics for SSC Board Exam</h1>
 
     <table>
         <ol>
-            <li>Refer this table after learning all the textual question answers..</li>
+            <li>Refer this table after learning all the textual question answers.</li>
             <li>
                 Learn all the related Questions and Answers of the Topics given in each chapter.
             </li>
@@ -27,55 +123,55 @@
             
         </thead>
         <tr>
-            <td>1.</td>
-            <td><a href="./science1/gravitation.html">Gravitation</a></td>
-            <td><a href="https://example.com/link2b">Heredity and Evolution</a></td>
+            <td data-label = "Chapter no.">1.</td>
+            <td data-label="Science 1"><a href="./science1/gravitation.html">Gravitation</a></td>
+            <td data-label="Science 2"><a href="./science2/heredity.html">Heredity and Evolution</a></td>
         </tr>
         <tr>
-            <td>2.</td>
-            <td><a href="./science1/periodic.html">Periodic Classification of Elements</a></td>
-            <td><a href="https://example.com/link3b">Life Processes In Living Organisms Part - 1 </a></td>
+            <td data-label = "Chapter no.">2.</td>
+            <td data-label="Science 1"><a href="./science1/periodic.html">Periodic Classification of Elements</a></td>
+            <td data-label="Science 2"><a href="./science2/life-processes-1.html">Life Processes In Living Organisms Part - 1 </a></td>
         </tr>
         <tr>
-            <td>3. </td>
-            <td><a href="./science1/chem-rxns.html">Chemical reactions and equations</a></td>
-            <td><a href="https://example.com/link4b">Life Processes in Living Organisms Part - 2</a></td>
+            <td data-label = "Chapter no.">3. </td>
+            <td data-label="Science 1"><a href="./science1/chem-rxns.html">Chemical reactions and equations</a></td>
+            <td data-label="Science 2"><a href="./science2/life-processes-2.html">Life Processes in Living Organisms Part - 2</a></td>
         </tr>
         <tr>
-            <td>4.</td>
-            <td><a href="./science1/electric-current.html">Effects of electric current</a></td>
-            <td><a href="https://example.com/link5b">Environmental Management </a></td>
+            <td data-label="Chapter no.">4.</td>
+            <td data-label="Science 1"><a href="./science1/electric-current.html">Effects of electric current</a></td>
+            <td data-label="Science 2"><a href="./science2/environmental.html">Environmental Management </a></td>
         </tr>
         <tr>
-            <td>5.</td>
+            <td data-label="Chapter no.">5.</td>
 
-            <td><a href="./science1/heat.html">Heat</a></td>
-            <td><a href="https://example.com/link6b">Towards Green Energy</a></td>
+            <td data-label="Science 1"><a href="./science1/heat.html">Heat</a></td>
+            <td data-label="Science 2"><a href="./science2/green-energy.html">Towards Green Energy</a></td>
         </tr>
         <tr>
-            <td>6.</td>
-            <td><a href="./science1/refraction.html">Refraction of light</a></td>
-            <td><a href="https://example.com/link7b">Towards Green Energy </a></td>
+            <td data-label="Chapter no.">6.</td>
+            <td data-label="Science 1"><a href="./science1/refraction.html">Refraction of light</a></td>
+            <td data-label="Science 2"><a href="./science2/animal.html">Animal Classification </a></td>
         </tr>
         <tr>
-            <td>7.</td>
-            <td><a href="./science1/Lenses.html">Lenses</a></td>
-            <td><a href="https://example.com/link8b">Animal Classification</a></td>
+            <td data-label="Chapter no.">7.</td>
+            <td data-label="Science 1"><a href="./science1/Lenses.html">Lenses</a></td>
+            <td data-label="Science 2"><a href="./science2/microbiology.html">Introduction to Microbiology</a></td>
         </tr>
         <tr>
-            <td>8</td>
-            <td><a href="./science1/metallurgy.html">Metallurgy</a></td>
-            <td><a href="https://example.com/link9b">Introduction to Microbiology </a></td>
+            <td data-label="Chapter no.">8</td>
+            <td data-label="Science 1"><a href="./science1/metallurgy.html">Metallurgy</a></td>
+            <td data-label="Science 2"><a href="./science2/biotechnology.html">Cell Biology and Biotechnology </a></td>
         </tr>
         <tr>
-            <td>9. </td>
-            <td><a href="./science1/carbon.html">Carbon compounds </a></td>
-            <td><a href="https://example.com/link10b">Cell Biology and Biotechnology </a></td>
+            <td data-label="Chapter no.">9. </td>
+            <td data-label="Science 1"><a href="./science1/carbon.html">Carbon compounds </a></td>
+            <td data-label="Science 2"><a href="./science2/social.html">Social Health </a></td>
         </tr>
         <tr>
-            <td>10. </td>
-            <td><a href="./science1/space.html">Space Missions</a></td>
-            <td><a href="https://example.com/link11b">Social Health</a></td>
+            <td data-label="Chapter no.">10. </td>
+            <td data-label="Science 1"><a href="./science1/space.html">Space Missions</a></td>
+            <td data-label="Science 2"><a href="./science2/disaster.html">Disaster Management</a></td>
         </tr>
     </table>
     <dl>
